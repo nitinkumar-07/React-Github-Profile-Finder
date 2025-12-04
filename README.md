@@ -88,8 +88,8 @@ https://api.github.com/users/{username}
 
 ## 📸 Screenshot
 
-*<img width="1919" height="902" alt="Screenshot 2025-12-04 080324" src="https://github.com/user-attachments/assets/16beae2b-e357-4cee-9670-d5452cc50cc2" />
-*
+<img width="1919" height="902" alt="Screenshot 2025-12-04 080324" src="https://github.com/user-attachments/assets/16beae2b-e357-4cee-9670-d5452cc50cc2" />
+
 
 ---
 
@@ -113,6 +113,7 @@ Feel free to open an issue or submit a pull request.
 ## 📬 Contact
 
 If you have any questions or suggestions:
+
 📧 *https://www.linkedin.com/in/nitin-kumar-491813336/*
 
 ---
