@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import { useState } from 'react'
 import './App.css';
 import axios from 'axios';
 import { FaMapMarkerAlt } from 'react-icons/fa';
@@ -61,7 +61,8 @@ const App = () => {
               <div className='profile-desc w-[500px] flex items-center justify-around gap-[100px]'>
 
                 <h2 className='profile-name text-[30px] font-[800]'>{profile.name}</h2>
-                <p>Joined: {new Date(profile.created_at).toLocaleDateString()}</p>
+
+                <p className='joined'>Joined: {new Date(profile.created_at).toLocaleDateString()}</p>
 
               </div>
 
@@ -74,7 +75,7 @@ const App = () => {
                 <p className='profile-repos'>Repositories <br /><span className='stats text-[#1b47a4] text-[30px] font-[800]'>{profile.public_repos}</span></p>
 
                 <p className='profile-followers'>Followers <br /><span className='stats text-[#1b47a4] text-[30px] font-[800]'>{profile.followers}</span></p>
-                
+
                 <p className='profile-following'>Following <br /><span className='stats text-[#1b47a4] text-[30px] font-[800]'>{profile.following}</span></p>
 
               </div>
@@ -82,6 +83,7 @@ const App = () => {
               <div className='profile-info flex justify-start mt-[20px] ml-[30px] gap-[80px]'>
 
                 <p className='profile-location flex items-center gap-[5px]'><FaMapMarkerAlt /> {profile.location}</p>
+                
                 <p className='profile-company flex items-center gap-[5px]'><PiBuildingsFill /> {profile.company}</p>
 
               </div>
