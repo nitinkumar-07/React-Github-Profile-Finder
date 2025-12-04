@@ -1,16 +1,122 @@
-# React + Vite
+# 🚀 GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **React-based web app** that allows users to search for any GitHub profile and view their complete information including bio, repositories, followers, following, and social links.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+👉 *https://react-github-profile-finderr.netlify.app/*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🔍 Search any GitHub username
+* 👤 Displays profile photo, name & bio
+* 📊 Shows Repositories, Followers, Following
+* 🏢 Company & 📍 Location info
+* 🔗 Links to GitHub & Twitter profiles
+* ⚠️ Error handling for incorrect usernames
+* 🎨 Clean, dark UI made with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React JS** (Hooks)
+* **Axios** for API calls
+* **GitHub REST API**
+* **Tailwind CSS** for styling
+
+---
+
+## 📁 Folder Structure
+
+```
+GitHub Profile Finder
+│
+├── src
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.js
+│   └── components (if any)
+│
+├── public
+│   └── index.html
+│
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```
+git clone <your-repo-link>
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+
+3. Start the development server:
+
+```
+npm run dev
+```
+
+4. Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔧 API Used
+
+This project uses the official **GitHub Users API**:
+
+```
+https://api.github.com/users/{username}
+```
+
+---
+
+## 📸 Screenshot
+
+*<img width="1919" height="902" alt="Screenshot 2025-12-04 080324" src="https://github.com/user-attachments/assets/16beae2b-e357-4cee-9670-d5452cc50cc2" />
+*
+
+---
+
+## 💡 What I Learned
+
+* Handling APIs with Axios
+* Managing state in React using useState
+* Conditional rendering
+* Improving UI/UX with Tailwind
+* Working with real data from GitHub API
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome!
+Feel free to open an issue or submit a pull request.
+
+---
+
+## 📬 Contact
+
+If you have any questions or suggestions:
+📧 *https://www.linkedin.com/in/nitin-kumar-491813336/*
+
+---
+
+## ⭐ Show Your Support
+
+If you liked this project, please give it a ⭐ on GitHub!
