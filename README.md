@@ -17,6 +17,7 @@ A simple and clean **React-based web app** that allows users to search for any G
 * 🔗 Links to GitHub & Twitter profiles
 * ⚠️ Error handling for incorrect usernames
 * 🎨 Clean, dark UI made with Tailwind CSS
+* 📱 Fully Responsive UI — smooth experience on mobile, tablet & desktop!
 
 ---
 
